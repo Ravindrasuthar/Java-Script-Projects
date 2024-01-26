@@ -1,0 +1,69 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    display: flex;
+    width: 100%;
+    height: 100vh;
+
+}
+
+.left{
+     flex: 50%;
+     background-color: aquamarine;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+}
+
+.right{
+     flex: 50%;
+     background-color: aliceblue;
+}
+
+.right h1{
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.left button{
+    background-color: wheat;
+    font-weight: bold;
+    margin-top: 20px;
+    margin-right: 40px;
+    border-radius: 5px;
+    width: 110px;
+    height: 40px;
+    font-size: 16px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.left button:hover{
+    background-color: rgb(90, 176, 90);
+}
+
+.text-area{
+   display: flex;
+   align-items: center;
+}
+
+.left input{
+    margin-left: 20px;
+}
+
+.left textarea{
+    box-shadow: 5px 5px 5px 0 gray;
+    border-radius: 5px;
+}
+
+.mynotes{
+    display: flex;
+    width: 50px;
+    height: 100px;
+    align-items: flex-start;
+    text-align: center;
+}
+
