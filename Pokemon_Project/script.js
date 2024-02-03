@@ -79,12 +79,14 @@ function createPokemonCard(pokemon) {
     // Div-1: Total card for a particular pokemon:
     const flipCard = document.createElement("div")
     flipCard.classList.add("flip-card") // dynamically giving class name "flip-card"
+    flipCard.id=`${pokemon.name}`
     pokedex.append(flipCard)
 
 
     // Div-2: ( front & back container)
     const flipCardInner = document.createElement("div")
     flipCardInner.classList.add("flip-card-inner") // class "flip-card-inner" for flip
+    flipCardInner.id=`${pokemon.type}`
     flipCard.append(flipCardInner) // append this flip card in the Div-1
 
     //********************************************************************/
