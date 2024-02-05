@@ -18,7 +18,7 @@ else
 
 function storedata(){
     const f_name = prompt("Enter your first name:");
-    const l_Name = prompt("Enter your last name:");
+    const l_name = prompt("Enter your last name:");
     const _country = prompt("Enter your country:");
     const _pno = prompt("Enter your phone number:");
     const _state = prompt("Enter your state:");
@@ -27,7 +27,7 @@ function storedata(){
 
     const userInfo={
           f_name,
-          l_Name,
+          l_name,
           _country,
           _pno,
           _state,
