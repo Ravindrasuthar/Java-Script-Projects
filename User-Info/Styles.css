@@ -1,0 +1,40 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family:Arial, sans-serif;
+    background-color: aliceblue;
+}
+
+#main-container{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   padding-top: 175px;
+}
+
+#block{
+    border: 10px  gray;
+    height: 300px;
+    width: 400px;
+    padding-left: 10px;
+    padding-right: 10px;
+    text-align: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 10px 10px 10px 5px gray;
+    border-radius: 15px;
+}
+
+#mydata{
+   display: flex;
+   justify-content: space-between;
+   width: 350px;
+   margin-top: 10px;
+   margin-left: 23px;
+}
+
+input{
+    border: 0cap;
+}
+
+
