@@ -1,0 +1,10 @@
+body{
+    background-color: rgb(242, 250, 248);
+    color: rgb(236, 155, 155);
+}
+
+.main {
+    max-width: 600px;
+    margin: 0 auto;
+  
+}
